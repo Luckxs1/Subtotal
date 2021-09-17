@@ -1,6 +1,6 @@
 $(function(){
 
-    root =  "http://localhost/Subtotal_1/"
+    root =  "http://localhost/Subtotal/"
     console.log(root);
     $('[data-toggle="tooltip"]').tooltip()
     ajaxForm();
