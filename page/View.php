@@ -54,15 +54,4 @@
             });
 
         }
-
-        function sumTable() {
-            $('totalsum').DataTable({
-                "lengthMenu" : [],
-                "ajax" : root + "controller/get/get.credits.php?mode=sum",
-                "columns" : [
-                    {"data" : "TOTAL"},
-                ]
-            });
-        }
-
 </script>

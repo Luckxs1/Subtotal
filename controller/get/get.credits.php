@@ -32,12 +32,11 @@
 
             $response = array("data" => $creditors);
             break;
-        case "sum":
-            $sum = $creditor->sumRequired();
-            foreach($sum as $key => $value){
-                $total = $sum[$key]["TOTAL"];
+        // case "sum":
+        //     $sum = $creditor->sumRequired();
+            
 
-            }
+        //     }
 
 
     }

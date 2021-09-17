@@ -19,14 +19,16 @@
             return $this->fetchAssoc($stmt);
         }
 
-        public function updateCreditor(){
+        // public function updateCreditor(){
 
-        }
+        // }
 
-        public function sumRequired(){
-            $stmt = $this->prepareQuery($this->conn,"SELECT COALESCE(SUM(Credits),0) FROM credits_tb WHERE Fname = 'lucky' ");
-            return $this->fetchAssoc($stmt);
-        }
+        // public function sumRequired(){
+        //     $stmt = $this->prepareQuery($this->conn,"SELECT COALESCE(SUM(Credits),0) FROM credits_tb WHERE Fname = 'lucky' ");
+        //     return $this->fetchAssoc($stmt);
+        // }
+
+        // public function 
 
     }
 
