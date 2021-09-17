@@ -1,0 +1,45 @@
+body {
+    padding: 60px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.dashboard-block {
+    max-width: 500px;
+    padding: 60px;
+    top: 45% !important;
+}
+
+img {
+    width: 200px;
+    margin: 15px 0 30px;
+    margin: auto;
+    display: block;
+}
+
+form {
+    display: block;
+    margin: 50px auto;
+    max-width: 320px;
+}
+
+p {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+@media screen and (max-width:900px) { 
+
+    body {
+        padding: 15px;
+    }
+    .dashboard-block {
+        border: none !important;
+    }
+    p { font-size: 12px; }
+}
